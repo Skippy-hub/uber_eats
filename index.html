@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-[Roboto] box-border"> <!--В дизайне неправильно указан шрифт. В дизайне Roboto(с засечками) в реале без засечек-->
+    <header>
+        <div class="max-w-[962px] w-full mx-auto flex justify-between items-center py-4">
+            <img class="w-[119.23px] h-[12.31px]" src="images/logo.svg" alt="">
+            <div class="flex gap-4 items-center">
+                <button class="cursor-pointer w-[78px] h-[40px] border border-solid border-[#E0E0E0] text-[13px]/[24px] text-[#1D1D1D] rounded-xs">Войти</button>
+                <a href="#" class=" min-h-[40px] h-full py-4">
+                    <img class="w-[18.95px] h-[21.74px]" src="images/basket.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pt-8 pb-14">
+            <div class="max-w-[962px] w-full mx-auto">
+                <input class="text-[#626262] opacity-50 text-base/[24px] w-full border-b border-solid border-[#757575]/30 pt-6" type="text" placeholder="Поиск по ресторанам и кухням">
+            </div>
+        </section>
+        <section class="restaurants pb-[80px]">
+            <div class="max-w-[962px] w-full mx-auto">
+                <h2 class="font-normal text-[22px]/[34px] mb-4">Рестораны в Москве</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 ">
+                    <div class="restaurants__card">
+                        <img class="w-full mb-4" src="images/95b745f6ce6a45903c3ed254afd72e46-w550-27.png" alt="">
+                        <div class="flex flex-col gap-1 mb-5">
+                            <h3 class="text-[#1d1d1d]">Макдоналдс — Газетный</h3>
+                            <p class="text-sm/[21px] text-[#626262]">₽₽ • Бургеры</p>
+                            <p class="text-[13px]/[21px] text-[#1d1d1d]">25 - 35 мин</p>
+                        </div>
+                    </div>
+                    <div class="restaurants__card">
+                        <img class="w-full mb-4" src="images/95b745f6ce6a45903c3ed254afd72e46-w550-27.png" alt="">
+                        <div class="flex flex-col gap-1 mb-5">
+                            <h3 class="text-[#1d1d1d]">Макдоналдс — Газетный</h3>
+                            <p class="text-sm/[21px] text-[#626262]">₽₽ • Бургеры</p>
+                            <p class="text-[13px]/[21px] text-[#1d1d1d]">25 - 35 мин</p>
+                        </div>
+                    </div>
+                    <div class="restaurants__card">
+                        <img class="w-full mb-4" src="images/95b745f6ce6a45903c3ed254afd72e46-w550-27.png" alt="">
+                        <div class="flex flex-col gap-1 mb-5">
+                            <h3 class="text-[#1d1d1d]">Макдоналдс — Газетный</h3>
+                            <p class="text-sm/[21px] text-[#626262]">₽₽ • Бургеры</p>
+                            <p class="text-[13px]/[21px] text-[#1d1d1d]">25 - 35 мин</p>
+                        </div>
+                    </div>
+                    <div class="restaurants__card">
+                        <img class="w-full mb-4" src="images/95b745f6ce6a45903c3ed254afd72e46-w550-27.png" alt="">
+                        <div class="flex flex-col gap-1 mb-5">
+                            <h3 class="text-[#1d1d1d]">Макдоналдс — Газетный</h3>
+                            <p class="text-sm/[21px] text-[#626262]">₽₽ • Бургеры</p>
+                            <p class="text-[13px]/[21px] text-[#1d1d1d]">25 - 35 мин</p>
+                        </div>
+                    </div>
+                    <div class="restaurants__card">
+                        <img class="w-full mb-4" src="images/95b745f6ce6a45903c3ed254afd72e46-w550-27.png" alt="">
+                        <div class="flex flex-col gap-1 mb-5">
+                            <h3 class="text-[#1d1d1d]">Макдоналдс — Газетный</h3>
+                            <p class="text-sm/[21px] text-[#626262]">₽₽ • Бургеры</p>
+                            <p class="text-[13px]/[21px] text-[#1d1d1d]">25 - 35 мин</p>
+                        </div>
+                    </div>
+                    <div class="restaurants__card">
+                        <img class="w-full mb-4" src="images/95b745f6ce6a45903c3ed254afd72e46-w550-27.png" alt="">
+                        <div class="flex flex-col gap-1 mb-5">
+                            <h3 class="text-[#1d1d1d]">Макдоналдс — Газетный</h3>
+                            <p class="text-sm/[21px] text-[#626262]">₽₽ • Бургеры</p>
+                            <p class="text-[13px]/[21px] text-[#1d1d1d]">25 - 35 мин</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#262626]">
+        <div class="max-w-[962px] w-full mx-auto">
+            <section class="pt-[56px] pb-[40.31px] border-b border-solid border-[#FFFFFF]/40">
+                <img class="max-w-[190.77px] max-h-[19.69px]" src="images/white-logo.svg" alt="">
+            </section>
+            <section class="pt-8 pb-[55px] border-b border-solid border-[#FFFFFF]/40 flex">
+                <div class="flex flex-col mr-[97px]">
+                    <div class="pl-4 pr-2 py-[12.14px] mb-[33px] w-[227px] flex items-center bg-[#3B3B3B] rounded-xs cursor-pointer">
+                        <img class="mr-[16.28px] w-[15.72px] h-[15.72px]" src="images/world.svg" alt="">
+                        <p class="text-[#fff] text-[13px]/[15.23px]">Руский</p>
+                        <img class="ml-auto w-[8px] h-[14px]" src="images/if_icon-ios7-arrow-back_211686.svg" alt="">
+                    </div>
+                    <div class="max-w-[92px] w-full">
+                        <p class="text-4/[18.75px] text-[#fff]"><span class="text-[#49A144]">#</span>UberEats</p>
+                        <div class="mt-[17px] flex">
+                            <img src="images/facebook.svg" alt="">
+                            <img class="ml-3 mr-2" src="images/twitter.svg" alt="">
+                            <img src="images/instagram.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-[23px] mr-[128px]">
+                    <p class="text-[#fff] text-[13px]/[15.23px]">Об UberEats</p>
+                    <p class="text-[#fff] text-[13px]/[15.23px]">Станьте партнёром по доставке</p>
+                    <p class="text-[#fff] text-[13px]/[15.23px]">Станьте парнёром-рестораном</p>
+                </div>
+                <div class="flex flex-col gap-[23px]">
+                    <p class="text-[#fff] text-[13px]/[15.23px]">Все города</p>
+                    <p class="text-[#fff] text-[13px]/[15.23px]">Цены</p>
+                    <p class="text-[#fff] text-[13px]/[15.23px]">Помощь</p>
+                    <p class="text-[#fff] text-[13px]/[15.23px]">FAQs</p>
+                </div>
+            </section>
+            <section class="py-10  border-b border-solid border-[#FFFFFF]/40 flex gap-10 justify-center">
+                <a href="#"><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" alt=""></a>
+                <a href="#"><img src="images/en_badge_web_generic-cf6dad406f.png" alt=""></a>
+            </section>
+            <section class="py-10 flex">
+                <p class="text-[11px]/[12.89px] text-[#fff]">&copy; 2017 Uber Technologies Inc.</p>
+                <p class="text-[11px]/[12.89px] text-[#fff] ml-[174px] mr-[148px]">Обработка персональных данных</p>
+                <p class="text-[11px]/[12.89px] text-[#fff]">Пользовательское соглашение</p>
+            </section>
+        </div>
+    </footer>
+    <a href="#top" class="fixed bottom-0 right-8 w-[250px]">
+        <img src="images/button-up.png" alt="">
+    </a>
+</body>
+</html>
